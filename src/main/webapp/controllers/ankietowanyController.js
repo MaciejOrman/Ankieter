@@ -16,5 +16,4 @@ function ankietowanyController($scope, $http, $location){
 		    // or server returns response with an error status.
 		  });
 	}
-
 }

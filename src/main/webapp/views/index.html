@@ -8,7 +8,6 @@
   <script type="text/javascript" src="../lib/angularjs/angular-route.min.js"></script>
   <script src="../controllers/mainController.js"></script>
   <script src="../controllers/audytorController.js"></script>
-  <script src="../controllers/ankietowanyController.js"></script>
   
 <style type="text/css">
 html, body
@@ -54,7 +53,7 @@ body
 }
 </style>
 </head>
-<body>
+<body ng-controller="audytorController">
 <div id="space"><br></div>
 <div id="container">
 <div ng-view style="position:absolute;left:15px;top:160px;width:768px;height:498px;z-index:0;border:1px #C0C0C0 solid;"></div>
